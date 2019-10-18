@@ -1,12 +1,12 @@
 {
-    "name": "rhea",
+    "name": "runsa-rhea",
     "version": "1.0.10",
     "description": "reactive AMQP 1.0 library",
-    "homepage": "http://github.com/amqp/rhea",
+    "homepage": "http://github.com/dbit-xia/rhea",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "http://github.com/amqp/rhea"
+        "url": "http://github.com/dbit-xia/rhea"
     },
     "dependencies": {
         "debug": "0.8.0 - 3.5.0"
