@@ -13,3 +13,4 @@ examples
 *.sln
 *.obj
 .env
+.idea
