@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/amqp/rhea.svg?branch=master)](https://travis-ci.org/amqp/rhea)
 
-# rhea
+# runsa-rhea
 
 A reactive library for the [AMQP](http://amqp.org/) protocol, for easy
 development of both clients and servers.
@@ -14,7 +14,7 @@ Brief example of sending and receiving a message through a
 broker/server listening on port 5672:
 
 ```js
-var container = require('rhea');
+var container = require('runsa-rhea');
 container.on('message', function (context) {
     console.log(context.message.body);
     context.connection.close();
